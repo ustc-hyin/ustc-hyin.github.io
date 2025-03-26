@@ -68,6 +68,11 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif -%}
 
+    {% if page.news -%}
+      <!-- News -->
+      {%- include news.html %}
+    {%- endif %}
+
     {% if page.selected_papers -%}
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
