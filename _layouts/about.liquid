@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="post">
   <article>
     {% if page.profile -%}
@@ -11,27 +10,31 @@ layout: default
             {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
             {% if page.profile.image_circular %}
-              {% assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' -%}
             {% else %}
-              {% assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' -%}
             {% endif %}
 
-            {% include figure.liquid 
-              path=profile_image_path 
-              class=profile_image_class 
-              alt=page.profile.image 
-              loading="eager" 
-              cache_bust=true 
+            {%
+              include figure.liquid
+              path=profile_image_path
+              class=profile_image_class
+              alt=page.profile.image
+              loading="eager"
+              cache_bust=true
             -%}
           {% endif -%}
         </div>
         <div class="col-sm-9">
           <h1 class="post-title">
-            {% if site.title == "blank" -%}
-              {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+            {% if site.title == 'blank' -%}
+              {{ site.first_name }}
+              {{ site.middle_name }}
+              {{ site.last_name }}
             {%- else -%}
               {{ site.title }}
-            {%- endif %} (宋飏)
+            {%- endif %}
+            (宋飏)
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
           {% if page.profile.more_info -%}
