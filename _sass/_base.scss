@@ -717,13 +717,16 @@ footer.sticky-bottom {
       }
 
       .abbr {
+        height: 2rem;
         margin-bottom: 0.5rem;
 
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
-          color: var(--global-card-bg-color) !important;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          // color: var(--global-card-bg-color) !important;
 
           a {
             color: white;
@@ -737,6 +740,8 @@ footer.sticky-bottom {
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
         }
       }
 
@@ -773,14 +778,21 @@ footer.sticky-bottom {
 
       .links {
         a.btn {
+          // color: var(--global-text-color);
+          // border: 1px solid var(--global-text-color);
+          // padding-left: 1rem;
+          // padding-right: 1rem;
+          // padding-top: 0.25rem;
+          // padding-bottom: 0.25rem;
+          // margin-left: 0;
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
-
+          padding-left: 0.35rem;
+          padding-right: 0.35rem;
+          padding-top: 0.1rem;
+          padding-bottom: 0.1rem;
+          margin-left: 0rem;
+          margin-right: 0rem;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
