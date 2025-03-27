@@ -11,7 +11,7 @@
     {% endif %}
   
     {%- if entry.abbr -%}
-      <abbr class="badge position-absolute top-0 start-0 bg-primary text-white p-1 rounded">
+      <abbr class="badge position-absolute top-0 start-0 bg-primary text-white p-1 rounded" style="transform: translate(10px, 10px); z-index: 10;">
         {% if site.data.venues[entry.abbr] %}
           <a href="{{ site.data.venues[entry.abbr].url }}" class="text-white">{{ entry.abbr }}</a>
         {% else %}
@@ -19,7 +19,7 @@
         {% endif %}
       </abbr>
     {% endif %}
-  </div>
+  </div>  
   
   {% comment %} <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
     {%- if entry.preview -%}
