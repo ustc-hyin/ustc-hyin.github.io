@@ -696,8 +696,10 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    //color: var(--global-divider-color);
+    color: $grey-color;
+    //border-top: 1px solid var(--global-divider-color);
+    border-top: 1px solid $grey-color;
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
@@ -892,7 +894,7 @@ html.transition *:after {
 // Extra Markdown style (post Customization)
 .post {
   .post-meta {
-    color: var(--global-text-color-dark);
+    color: var(--global-text-color-light);
     font-size: 0.875rem;
     margin-bottom: 0;
   }
