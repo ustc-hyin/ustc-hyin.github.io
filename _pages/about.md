@@ -4,12 +4,12 @@ title: about
 permalink: /
 subtitle: |+
   <br>
-  Incoming Assistant Professor, <br>
-  Electrical Engineering and Computing + Mathematical Sciences, <br>
-  <a href="https://www.caltech.edu">California Institute of Technology (Caltech)</a>.
+  Master’s Student, <br>
+  Artificial Intelligence & Data Science, <br>
+  <a href="https://www.ustc.edu.cn">University of Science and Technology of China (USTC)</a>.
 
 profile:
-  image: prof_pic.jpg
+  image: prof_pict.jpg
   image_cicular: false # crops the image to make it circular
   address: false
 
