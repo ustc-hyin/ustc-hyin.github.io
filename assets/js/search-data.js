@@ -387,16 +387,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-our-paper-clearsight-visual-signal-enhancement-for-object-hallucination-mitigation-in-multimodal-large-language-models-has-been-accepted-to-cvpr-2025-in-this-work-we-present-a-method-to-mitigate-object-hallucination-in-mllms-by-strengthening-attention-to-visual-input",
+          title: '🎉 Our paper ClearSight: Visual Signal Enhancement for Object Hallucination Mitigation in Multimodal...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+          section: "News",},{id: "news-our-paper-lifting-the-veil-on-visual-information-flow-in-mllms-unlocking-pathways-to-faster-inference-has-been-accepted-to-cvpr-2025-this-work-investigates-the-internal-visual-information-flow-patterns-in-mllms-and-proposes-a-novel-training-free-inference-acceleration-method-based-on-our-findings",
+          title: '🎉 Our paper Lifting the Veil on Visual Information Flow in MLLMs: Unlocking...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -456,13 +451,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/ustc-hyin", "_blank");
-        },
-      },{
-        id: 'social-kaggle',
-        title: 'Kaggle',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.kaggle.com/navidendi", "_blank");
         },
       },{
         id: 'social-orcid',
