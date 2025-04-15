@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: |+
-  <br>
+  Actively looking for PhD positions starting in Fall 2026 <br><br>
   Master’s Student, <br>
   Artificial Intelligence & Data Science, <br>
   <a href="https://www.ustc.edu.cn">University of Science and Technology of China (USTC)</a>.
