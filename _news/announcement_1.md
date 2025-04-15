@@ -5,6 +5,5 @@ inline: true
 related_posts: false
 ---
 
-🎉 Our paper _ClearSight: Visual Signal Enhancement for Object Hallucination Mitigation in Multimodal Large Language Models_ has been accepted to CVPR 2025! 
-
+🎉 Our paper _ClearSight: Visual Signal Enhancement for Object Hallucination Mitigation in Multimodal Large Language Models_ has been accepted to CVPR 2025!<br>
 In this work, we present a method to mitigate object hallucination in MLLMs by strengthening attention to visual input.
