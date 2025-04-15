@@ -9,7 +9,7 @@ subtitle: |+
   <a href="https://www.ustc.edu.cn">University of Science and Technology of China (USTC)</a>.
 
 profile:
-  image: prof_pict.jpg
+  image: profile.jpg
   image_cicular: false # crops the image to make it circular
   address: false
 
