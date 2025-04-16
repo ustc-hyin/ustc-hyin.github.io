@@ -17,28 +17,29 @@
   contents:
     - title: M.Sc. in Data Science (Statistics)
       institution: University of Science and Technology of China, Hefei, China
-      year: 2022.09 - 2025.06
+      year: 2022.09 - Present
       description:
         - School of Artificial Intelligence and Data Science
-        - GPA 3.96/4.30 (2/31)
-        - Advised by <a href="http://staff.ustc.edu.cn/~zlwang/">Zilei Wang</a>.
+        - "GPA: 3.96/4.30 (2/31)"
+        - Advised by <a href="http://staff.ustc.edu.cn/~zlwang/">Zilei Wang</a>
     - title: B.Sc. in Applied Mathematics
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      institution: China University of Mining and Technology, Xuzhou, China
       year: 2018.09 - 2022.06
       description:
         - School of Mathematics
-        - GPA 4.47/5.00 (2/185)
+        - "GPA: 4.47/5.00 (2/185)"
         - Outstanding Graduate
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: International Exchange Student
+      institution: Australian National University, Canberra, Australia
+      year: 2020.02 - 2020.07
       description:
-        - Description 1.
-        - Description 2.
+        - MATH1005 Discrete Mathematical Models - <em>High Distinction</em>
+        - "MATH2222 Introduction to Mathematical Thinking: Problem-Solving and Proofs - <em>High Distinction</em>"
+        - MATH3511 Scientific Computing - <em>High Distinction</em>
         - title: Description 3.
           contents:
             - Sub-description 1.
