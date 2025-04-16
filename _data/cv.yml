@@ -2,18 +2,23 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Hao Yin
+    - name: Label
+      value: Master's Student & Artificial Intelligence Scientist
+    - name: Email
+      value: yinhnavi@mail.ustc.edu.cn
+    - name: Phone
+      value: (+86) 18051050608
+    - name: Summary
+      value: Master's student in Artificial Intelligence & Data Science at USTC. My research focuses on enhancing the efficiency and trustworthiness of multimodal large language models.
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
       institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      startDate: 2022-09-01
+      endDate: 2025-06-30
       description:
         - Description 1.
         - Description 2.
