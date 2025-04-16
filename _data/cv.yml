@@ -46,14 +46,14 @@
   contents:
     - year: 2019
       items:
-        - National Scholarship (Top 1%), awarded at China University of Mining and Technology
+        - <strong>National Scholarship (Top 1%)</strong>, awarded at China University of Mining and Technology
     - year: 2020
       items:
-        - National Scholarship (Top 1%), awarded at China University of Mining and Technology
+        - <strong>National Scholarship (Top 1%)</strong>, awarded at China University of Mining and Technology
     - year: 2021
       items:
-        - Silver Medalist (Top 4.9%) — <em>Cassava Leaf Disease Classification</em>, Kaggle Competition
-        - Silver Medalist (Top 3.6%) - <em>Jane Street Market Prediction</em>, Kaggle Competition
+        - <a href="https://www.kaggle.com/certification/competitions/navidendi/cassava-leaf-disease-classification">Silver Medalist (Top 4.9%)</a> — <em>Cassava Leaf Disease Classification</em>, Kaggle Competition
+        - <a href="https://www.kaggle.com/certification/competitions/navidendi/jane-street-market-prediction">Silver Medalist (Top 3.6%)</a> - <em>Jane Street Market Prediction</em>, Kaggle Competition
     - year: 2022
       items:
         - Excellent Graduate, China University of Mining and Technology
