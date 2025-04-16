@@ -11,14 +11,14 @@ ninja.data = [{
     },
   },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Feel free to download my complete CV by clicking the PDF button on the right.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-publications",
           title: "publications",
-          description: "publications in reverse chronological order. (*) denotes equal contribution.",
+          description: "publications in reverse chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
