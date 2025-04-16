@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: publications in reverse chronological order. (*) denotes equal contribution.
+description: publications in reverse chronological order.
 nav: true
 nav_order: 3
 ---

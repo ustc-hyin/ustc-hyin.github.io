@@ -9,7 +9,7 @@ nav_order: 2
 
 
 cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: Feel free to download my complete CV by clicking the PDF button on the right.
 # toc:
 #   sidebar: left
 ---
