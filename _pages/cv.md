@@ -5,9 +5,6 @@ title: cv
 nav: true
 nav_order: 2
 
-
-
-
 cv_pdf: example_pdf.pdf # you can also use external links here
 description: Feel free to download my complete CV by clicking the PDF button on the right.
 # toc:
