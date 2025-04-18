@@ -714,9 +714,9 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
-        width: 100%;
-        min-width: 80px;
-        max-width: 200px;
+        // width: 100%;
+        // min-width: 80px;
+        // max-width: 200px;
       }
 
       .abbr {
@@ -727,8 +727,8 @@ footer.sticky-bottom {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
-          padding-left: 1rem;
-          padding-right: 1rem;
+          // padding-left: 1rem;
+          // padding-right: 1rem;
           // color: var(--global-card-bg-color) !important;
 
           a {
