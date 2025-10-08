@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: |+
-  Actively looking for research internships in the United States starting in Spring 2027 <br><br>
+  Actively looking for research internships in the United States <br><br>
   Master’s Student, <br>
   Artificial Intelligence & Data Science, <br>
   <a href="https://www.ustc.edu.cn">University of Science and Technology of China (USTC)</a>.
