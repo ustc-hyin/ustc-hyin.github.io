@@ -396,7 +396,7 @@ ninja.data = [{
           section: "News",},{id: "news-excited-to-share-that-i-ve-begun-a-research-internship-at-tencent-my-project-will-involve-exploring-how-to-boost-the-common-sense-reasoning-abilities-of-mllms-this-will-primarily-be-achieved-through-post-training-approaches-focusing-on-efficient-data-construction-and-innovative-training-strategy-design",
           title: 'Excited to share that I’ve begun a research internship at Tencent! My project...',
           description: "",
-          section: "News",},{id: "news-our-paper-the-mirage-of-performance-gains-why-contrastive-decoding-fails-to-mitigate-object-hallucinations-in-mllms-has-been-accepted-to-neurips-2025-this-work-demonstrates-that-contrastive-decoding-does-not-genuinely-mitigate-hallucinations-instead-any-apparent-improvements-are-attributable-to-misleading-factors-rather-than-true-effectiveness",
+          section: "News",},{id: "news-our-paper-the-mirage-of-performance-gains-why-contrastive-decoding-fails-to-mitigate-object-hallucinations-in-mllms-has-been-accepted-to-neurips-2025-this-work-reveals-that-contrastive-decoding-fails-to-genuinely-mitigate-hallucinations-any-apparent-improvements-are-merely-artifacts-of-confounding-factors-not-true-effectiveness",
           title: 'Our paper The Mirage of Performance Gains: Why Contrastive Decoding Fails to Mitigate...',
           description: "",
           section: "News",},{id: "projects-project-1",
