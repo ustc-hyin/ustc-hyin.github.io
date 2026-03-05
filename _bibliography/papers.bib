@@ -1,11 +1,26 @@
 ---
 ---
 
-@inproceedings{li2025revisor,
+@inproceedings{li2026video,
   title={REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding}, 
-  author={Li, Jiaze* and Yin, Hao* and Tan, Wenhui* and Chen, Jingyang* and Xu, Boshen and Qu, Yuxun and Chen, Yijing and Ju, Jianzhong and Luo, Zhenbo and Luan, Jian},
+  author={Li*, Jiaze and Yin*, Hao and Xu*, Haoran and Xu, Boshen and Tan, Wenhui and He, Zewen and Ju, Jianzhong and Luo, Zhenbo and Luan, Jian},
   year={2026},
   month={February},
+  booktitle={arXiv preprint arXiv:2602.02994},
+  abbr={arXiv preprint},
+  abstract={Reinforcement learning has emerged as a principled post-training paradigm for Temporal Video Grounding (TVG) due to its on-policy optimization, yet existing GRPO-based methods remain fundamentally constrained by sparse reward signals and substantial computational overhead. We propose Video-OPD, an efficient post-training framework for TVG inspired by recent advances in on-policy distillation. Video-OPD optimizes trajectories sampled directly from the current policy, thereby preserving alignment between training and inference distributions, while a frontier teacher supplies dense, token-level supervision via a reverse KL divergence objective. This formulation preserves the on-policy property critical for mitigating distributional shift, while converting sparse, episode-level feedback into fine-grained, step-wise learning signals. Building on Video-OPD, we introduce Teacher-Validated Disagreement Focusing (TVDF), a lightweight training curriculum that iteratively prioritizes trajectories that are both teacher-reliable and maximally informative for the student, thereby improving training efficiency. Empirical results demonstrate that Video-OPD consistently outperforms GRPO while achieving substantially faster convergence and lower computational cost, establishing on-policy distillation as an effective alternative to conventional reinforcement learning for TVG.},
+  pdf={https://arxiv.org/abs/2602.02994}, 
+  bibtex_show={true},
+  selected={false},
+  preview={video-opd.png},
+}
+
+
+@inproceedings{li2025revisor,
+  title={REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding}, 
+  author={Li*, Jiaze and Yin*, Hao and Tan*, Wenhui and Chen*, Jingyang and Xu, Boshen and Qu, Yuxun and Chen, Yijing and Ju, Jianzhong and Luo, Zhenbo and Luan, Jian},
+  year={2025},
+  month={November},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   abbr={CVPR 2026},
   abstract={Self-reflection mechanisms that rely on purely text-based rethinking processes perform well in most multimodal tasks. However, when directly applied to long-form video understanding scenarios, they exhibit clear limitations. The fundamental reasons for this lie in two points: (1)long-form video understanding involves richer and more dynamic visual input, meaning rethinking only the text information is insufficient and necessitates a further rethinking process specifically targeting visual information; (2) purely text-based reflection mechanisms lack cross-modal interaction capabilities, preventing them from fully integrating visual information during reflection. Motivated by these insights, we propose REVISOR (REflective VIsual Segment Oriented Reasoning), a novel framework for tool-augmented multimodal reflection. REVISOR enables MLLMs to collaboratively construct introspective reflection processes across textual and visual modalities, significantly enhancing their reasoning capability for long-form video understanding. To ensure that REVISOR can learn to accurately review video segments highly relevant to the question during reinforcement learning, we designed the Dual Attribution Decoupled Reward (DADR) mechanism. Integrated into the GRPO training strategy, this mechanism enforces causal alignment between the model's reasoning and the selected video evidence. Notably, the REVISOR framework significantly enhances long-form video understanding capability of MLLMs without requiring supplementary supervised fine-tuning or external models, achieving impressive results on four benchmarks including VideoMME, LongVideoBench, MLVU, and LVBench.},
@@ -19,7 +34,7 @@
   title={The Mirage of Performance Gains: Why Contrastive Decoding Fails to Mitigate Object Hallucinations in MLLMs}, 
   author={Hao Yin and Guangzong Si and Zilei Wang},
   year={2025},
-  month={September},
+  month={December},
   booktitle={Advances in Neural Information Processing Systems},
   abbr={NeurIPS 2025},
   abstract={Contrastive decoding strategies are widely used to reduce hallucinations in multimodal large language models (MLLMs). These methods work by constructing contrastive samples to induce hallucinations and then suppressing them in the output distribution. However, this paper demonstrates that such approaches fail to effectively mitigate the hallucination problem. The performance improvements observed on POPE Benchmark are largely driven by two misleading factors: (1) crude, unidirectional adjustments to the model's output distribution and (2) the adaptive plausibility constraint, which reduces the sampling strategy to greedy search. To further illustrate these issues, we introduce a series of spurious improvement methods and evaluate their performance against contrastive decoding techniques. Experimental results reveal that the observed performance gains in contrastive decoding are entirely unrelated to its intended goal of mitigating hallucinations. Our findings challenge common assumptions about the effectiveness of contrastive decoding strategies and pave the way for developing genuinely effective solutions to hallucinations in MLLMs.},
