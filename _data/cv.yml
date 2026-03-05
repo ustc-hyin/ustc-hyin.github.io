@@ -40,7 +40,6 @@
         - MATH1005 Discrete Mathematical Models - <em><strong>High Distinction</strong></em>
         - "MATH2222 Introduction to Mathematical Thinking: Problem-Solving and Proofs - <em><strong>High Distinction</strong></em>"
         - MATH3511 Scientific Computing - <em><strong>High Distinction</strong></em>
-  contents:
     - title: Research Intern
       institution: Tencent Technology, Beijing, China
       year: 2025.09 - 2025.12
@@ -48,7 +47,6 @@
         - Research on enhancing the image captioning capabilities of MLLMs through reinforcement learning strategies.
         - Developed a compact MLLM using supervised fine-tuning and reinforcement learning to generate highly precise, context-aware, and structured image captions, advancing real-world visual understanding.
         - Proposed a co-evolutionary adversarial framework to enhance MLLM image captioning by jointly optimizing a captioning model and a question-generation model within a self-reinforcing feedback loop, driving progressive improvements in descriptive fidelity and informational completeness.
-  contents:
     - title: Research Intern
       institution: Xiaomi Technology, Beijing, China
       year: 2026.01 - 2026.05
