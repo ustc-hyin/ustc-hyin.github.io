@@ -387,7 +387,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-excited-to-share-that-i-ve-begun-a-research-internship-at-tencent-my-project-will-involve-exploring-how-to-boost-the-common-sense-reasoning-abilities-of-mllms-this-will-primarily-be-achieved-through-post-training-approaches-focusing-on-efficient-data-construction-and-innovative-training-strategy-design",
+            },},{id: "news-our-paper-clearsight-visual-signal-enhancement-for-object-hallucination-mitigation-in-multimodal-large-language-models-has-been-accepted-to-cvpr-2025-in-this-work-we-present-a-method-to-mitigate-object-hallucination-in-mllms-by-strengthening-attention-to-visual-input",
+          title: 'Our paper ClearSight: Visual Signal Enhancement for Object Hallucination Mitigation in Multimodal Large...',
+          description: "",
+          section: "News",},{id: "news-our-paper-lifting-the-veil-on-visual-information-flow-in-mllms-unlocking-pathways-to-faster-inference-has-been-accepted-to-cvpr-2025-this-work-investigates-the-internal-visual-information-flow-patterns-in-mllms-and-proposes-a-novel-training-free-inference-acceleration-method-based-on-our-findings",
+          title: 'Our paper Lifting the Veil on Visual Information Flow in MLLMs: Unlocking Pathways...',
+          description: "",
+          section: "News",},{id: "news-excited-to-share-that-i-ve-begun-a-research-internship-at-tencent-my-project-will-involve-exploring-how-to-boost-the-common-sense-reasoning-abilities-of-mllms-this-will-primarily-be-achieved-through-post-training-approaches-focusing-on-efficient-data-construction-and-innovative-training-strategy-design",
           title: 'Excited to share that I’ve begun a research internship at Tencent! My project...',
           description: "",
           section: "News",},{id: "news-our-paper-the-mirage-of-performance-gains-why-contrastive-decoding-fails-to-mitigate-object-hallucinations-in-mllms-has-been-accepted-to-neurips-2025-this-work-reveals-that-contrastive-decoding-fails-to-genuinely-mitigate-hallucinations-any-apparent-improvements-are-merely-artifacts-of-confounding-factors-not-true-effectiveness",
