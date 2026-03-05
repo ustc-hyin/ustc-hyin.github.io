@@ -44,14 +44,14 @@
       institution: Tencent Technology, Beijing, China
       year: 2025.09 - 2025.12
       description:
-        - Research on enhancing the image captioning capabilities of MLLMs through reinforcement learning strategies.
+        <em><strong>Research on enhancing the image captioning capabilities of MLLMs through reinforcement learning strategies.</strong></em>
         - Developed a compact MLLM using supervised fine-tuning and reinforcement learning to generate highly precise, context-aware, and structured image captions, advancing real-world visual understanding.
-        - Proposed a co-evolutionary adversarial framework to enhance MLLM image captioning by jointly optimizing a captioning model and a question-generation model within a self-reinforcing feedback loop, driving progressive improvements in descriptive fidelity and informational completeness.
+        - Proposed a co-evolutionary adversarial framework for MLLM image captioning that jointly optimizes a captioning model and a question-generation model in a self-reinforcing loop, improving descriptive fidelity and informational completeness.
     - title: Research Intern
       institution: Xiaomi Technology, Beijing, China
       year: 2026.01 - 2026.05
       description:
-        - Research on enhancing reasoning capabilities of video foundation models through post-training strategies.
+        <em><strong>Research on enhancing reasoning capabilities of video foundation models through post-training strategies.</strong></em>
         - Proposed a tool-augmented MLLM reasoning framework that enables introspective reasoning across both visual and textual modalities, significantly improving long-form video understanding.
         - Developed Video-OPD, an efficient post-training framework for temporal video grounding that converts sparse rewards into dense step-wise signals, accelerating convergence while outperforming existing GRPO methods.
 
