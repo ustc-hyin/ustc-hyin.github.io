@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper _ClearSight: Visual Signal Enhancement for Object Hallucination Mitigation in Multimodal Large Language Models_ has been accepted to <a href="https://cvpr.thecvf.com/">CVPR 2025</a>!<br>
-In this work, we present a method to mitigate object hallucination in MLLMs by strengthening attention to visual input.
+Two first-author papers, <a href="https://arxiv.org/abs/2503.13108">HiMAP</a> (efficient inference) and <a href="https://arxiv.org/abs/2503.13107">ClearSight</a> (hallucination mitigation), accepted to <a href="https://cvpr.thecvf.com/Conferences/2025">CVPR 2025</a>.

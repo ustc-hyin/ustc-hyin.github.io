@@ -4,8 +4,8 @@ layout: default
 <div class="post">
   <article>
     {% if page.profile -%}
-      <div class="row">
-        <div class="col-sm-3">
+      <div class="row profile-header">
+        <div class="col-sm-auto profile-photo">
           {% if page.profile.image -%}
             {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
@@ -25,7 +25,7 @@ layout: default
             -%}
           {% endif -%}
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm profile-info">
           <h1 class="post-title">
             {% if site.title == 'blank' -%}
               {{ site.first_name }}
@@ -44,8 +44,26 @@ layout: default
             <div class="address">{{ page.profile.address }}</div>
           {% endif -%}
           {% if page.social -%}
-            <div class="social">
-              <div class="contact-icons">{% include social.liquid %}</div>
+            {% assign s = site.data.socials -%}
+            <div class="profile-links">
+              {% if page.profile.cv_link -%}
+                <a class="profile-btn" href="{{ page.profile.cv_link | relative_url }}"><i class="fa-solid fa-file-lines"></i> CV</a>
+              {% endif -%}
+              {% if s.email -%}
+                <a class="profile-btn" href="mailto:{{ s.email | encode_email }}"><i class="fa-solid fa-envelope"></i> Email</a>
+              {% endif -%}
+              {% if s.scholar_userid -%}
+                <a class="profile-btn" href="https://scholar.google.com/citations?user={{ s.scholar_userid }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+              {% endif -%}
+              {% if s.github_username -%}
+                <a class="profile-btn" href="https://github.com/{{ s.github_username }}"><i class="fa-brands fa-github"></i> GitHub</a>
+              {% endif -%}
+              {% if s.x_username -%}
+                <a class="profile-btn" href="https://x.com/{{ s.x_username }}"><i class="fa-brands fa-x-twitter"></i> X</a>
+              {% endif -%}
+              {% if s.orcid_id -%}
+                <a class="profile-btn" href="https://orcid.org/{{ s.orcid_id }}"><i class="ai ai-orcid"></i> ORCID</a>
+              {% endif -%}
             </div>
           {% endif -%}
         </div>
@@ -70,12 +88,12 @@ layout: default
 
     {% if page.news -%}
       <!-- News -->
-      {%- include news.liquid %}
+      {%- include news.liquid limit=true %}
     {%- endif %}
 
     {% if page.selected_papers -%}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      <h2 class="section-title">
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif -%}

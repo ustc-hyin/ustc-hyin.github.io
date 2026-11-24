@@ -1434,3 +1434,97 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// ---------------------------------------------------------------------------
+// Homepage (about) layout tweaks
+// ---------------------------------------------------------------------------
+
+// Header: compact photo + name / tagline / link buttons
+.profile-header {
+  align-items: center;
+  margin-bottom: 1.5rem;
+
+  .profile-photo {
+    img {
+      width: 190px;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+
+  .profile-info {
+    .post-title {
+      margin-bottom: 0.6rem;
+    }
+
+    .desc {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 0.9rem;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    text-align: center;
+
+    .profile-photo {
+      margin-bottom: 1rem;
+    }
+
+    .profile-links {
+      justify-content: center;
+    }
+  }
+}
+
+.phd-callout {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-weight: 600;
+  color: var(--global-theme-color);
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  .profile-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.25rem 0.8rem;
+    font-size: 0.9rem;
+    color: var(--global-text-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    transition: all 0.15s ease-in-out;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
+// Section headings on the homepage
+.section-title {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+// News: one line per item, date never wraps
+.news-table {
+  th {
+    width: 6.5rem;
+    white-space: nowrap;
+    font-weight: 500;
+    color: var(--global-text-color-light);
+  }
+}
