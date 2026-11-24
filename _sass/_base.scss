@@ -714,7 +714,19 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
-        // width: 100%;
+        width: 100%;
+      }
+
+      // Larger publication thumbnails: ~38% image / 62% text (≈340px at 1000px page width)
+      @media (min-width: 576px) {
+        .pub-thumb-col {
+          flex: 0 0 38%;
+          max-width: 38%;
+        }
+        .pub-text-col {
+          flex: 0 0 62%;
+          max-width: 62%;
+        }
       }
 
       .abbr {
