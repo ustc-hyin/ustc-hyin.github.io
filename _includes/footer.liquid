@@ -1,3 +1,6 @@
+{% if site.hide_footer %}
+  <div class="footer-spacer" aria-hidden="true"></div>
+{% else %}
 {% capture footer_contents %}
   &copy; Copyright {{ site.time | date: '%Y' }}
   {{ site.first_name }}
@@ -27,4 +30,5 @@
       {{ footer_contents }}
     </div>
   </footer>
+{% endif %}
 {% endif %}

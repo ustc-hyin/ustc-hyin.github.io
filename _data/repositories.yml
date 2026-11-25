@@ -4,6 +4,8 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - SeerRay-Lab/Video-OPD
+  - SeerRay-Lab/REVISOR
+  - ustc-hyin/cd_rethink
   - ustc-hyin/ClearSight
   - ustc-hyin/HiMAP
-  - ustc-hyin/cd_rethink

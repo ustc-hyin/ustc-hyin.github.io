@@ -518,11 +518,32 @@ footer.sticky-bottom {
   transform: translateX(-15px) translateY(-5px);
 }
 
-// Repositories
+// Repositories: two equal columns, every card the same width, left edges aligned
 
-@media (min-width: 768px) {
+.repositories {
+  display: grid !important;
+  grid-template-columns: 1fr;
+  gap: 1.25rem 1.5rem;
+  align-items: start !important;
+  margin-bottom: 1.5rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .repo {
-    max-width: 50%;
+    max-width: none;
+    padding: 0 !important;
+
+    a {
+      display: block;
+      line-height: 0;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 }
 
@@ -1646,4 +1667,9 @@ ol.bibliography > li {
   b {
     font-weight: 500;
   }
+}
+
+// Bottom breathing room when the footer is hidden
+.footer-spacer {
+  height: 4rem;
 }

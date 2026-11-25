@@ -3,6 +3,9 @@ layout: page
 permalink: /repositories/
 title: repositories
 description: Most of my research has code open-sourced at GitHub.
+hide_header: true # no page title / description; the two section headings below carry the structure
+_styles: >
+  .post article > h2 { margin-bottom: 1.25rem; }
 nav: true
 nav_order: 4
 ---
