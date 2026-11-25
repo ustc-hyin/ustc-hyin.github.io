@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Excited to share that I’ve completed my internship at Tencent and have begun a research internship at <a href="https://www.mi.com/global/">Xiaomi</a>! My project focuses on enhancing the spatial perception capabilities of MLLMs, primarily through post-training methods, emphasizing effective reasoning frameworks and innovative training strategies.
+Excited to share that I've completed my internship at <a href="https://www.tencent.com/en-us/">Tencent</a> and have begun a research internship at <a href="https://www.mi.com/global/">Xiaomi</a>! My project focuses on improving the spatial reasoning of MLLMs through post-training, with an emphasis on reasoning frameworks and training strategies.
