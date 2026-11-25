@@ -4,29 +4,8 @@
   {% if site.enable_publication_thumbnails %}
     {% comment %} <div class="col col-sm-2 abbr"> {% endcomment %}
     <div class="col-12 col-sm-3 abbr pub-thumb-col">
-      {%- if entry.abbr -%}
-        {%- if site.data.venues[entry.abbr] -%}
-          {% assign venue_style = null %}
-          {% if site.data.venues[entry.abbr].color != blank %}
-            {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
-          {%- endif -%}
-          <abbr
-            class="badge rounded w-100"
-            {% if venue_style %}
-              {{ venue_style }}
-            {% endif -%}
-          >
-            {% if site.data.venues[entry.abbr].url %}
-              <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
-            {% else %}
-              <div>{{- entry.abbr -}}</div>
-            {% endif %}
-          </abbr>
-        {% else %}
-          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
-        {% endif %}
-      {% endif %}
       {% if entry.preview %}
+        <div class="pub-thumb">
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
         {% else %}
@@ -42,6 +21,7 @@
             alt=entry.preview
           %}
         {% endif %}
+        </div>
       {% endif %}
     </div>
   {% endif %}
@@ -49,6 +29,9 @@
   <!-- Entry bib key -->
   {% comment %} <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}"> {% endcomment %}
   <div id="{{ entry.key }}" class="col-12 {% if site.enable_publication_thumbnails %}col-sm-9 pub-text-col{% else %}col-sm-10{% endif %}">
+    {% if entry.abbr %}
+      <div class="venue">{% if entry.venue %}{{ entry.venue }}{% else %}{{ entry.abbr }}{% endif %}</div>
+    {% endif %}
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
@@ -178,12 +161,19 @@
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
-    <div class="periodical">
-      {{ periodical | strip }}
-    </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+    {% unless entry.abbr %}
+      <div class="periodical">
+        {{ periodical | strip }}
+      </div>
+    {% endunless %}
+    {% if entry.tldr %}
+      <div class="tldr">{{ entry.tldr }}</div>
+    {% endif %}
+    {% if entry.note %}
+      <div class="periodical">
+        {{ entry.note | strip }}
+      </div>
+    {% endif %}
 
     {% if entry.honor %}
       <span class="honor">
