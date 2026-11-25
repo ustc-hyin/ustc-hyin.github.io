@@ -1,79 +1,72 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Name
-      value: Hao Yin
-    - name: Label
-      value: Master's Student & Artificial Intelligence Scientist
-    - name: Email
-      value: yinhnavi@mail.ustc.edu.cn
-    - name: Phone
-      value: (+86) 18051050608
-    - name: Summary
-      value: Master's student in Artificial Intelligence & Data Science at USTC. My research focuses on enhancing the perception and reasoning capabilities of multimodal large language models.
+# Web version of the CV — content follows phd_cv_v3.pdf (Nov 2026).
+# Rendered by _layouts/cv.liquid + _includes/cv/entries.liquid.
+# Each entry: title (bold part), rest (after the comma), date (right column),
+# sub (grey line under the title), items (bullets).
 
 - title: Education
-  type: time_table
+  type: entries
   contents:
-    - title: M.Sc. in Data Science (Statistics)
-      institution: University of Science and Technology of China, Hefei, China
-      year: 2022.09 - Present
-      description:
-        - School of Artificial Intelligence and Data Science
-        - "GPA: 3.96/4.30 (2/31)"
-        - Advised by <a href="http://staff.ustc.edu.cn/~zlwang/">Zilei Wang</a>
-    - title: B.Sc. in Applied Mathematics
-      institution: China University of Mining and Technology, Xuzhou, China
-      year: 2018.09 - 2022.06
-      description:
-        - School of Mathematics
-        - "GPA: 4.47/5.00 (2/185)"
-        - Outstanding Graduate
+    - title: University of Science and Technology of China
+      logo: ustc.png
+      rest: M.Sc. in Data Science
+      date: 09/2022 – 06/2025
+      sub: School of Artificial Intelligence and Data Science &nbsp;·&nbsp; GPA&#58; 3.96/4.30 (2/31)
+    - title: China University of Mining and Technology
+      logo: cumt.png
+      rest: B.Sc. in Applied Mathematics
+      date: 09/2018 – 06/2022
+      sub: School of Mathematics &nbsp;·&nbsp; GPA&#58; 4.23/5.00 (2/185)
+    - title: Australian National University
+      logo: anu.png
+      rest: International Exchange Student
+      date: 02/2020 – 07/2020
+      sub: Mathematics courses, all graded High Distinction
 
-- title: Experience
-  type: time_table
+- title: Research Experience
+  type: entries
   contents:
-    - title: International Exchange Student
-      institution: Australian National University, Canberra, Australia
-      year: 2020.02 - 2020.07
-      description:
-        - MATH1005 Discrete Mathematical Models - <em><strong>High Distinction</strong></em>
-        - "MATH2222 Introduction to Mathematical Thinking: Problem-Solving and Proofs - <em><strong>High Distinction</strong></em>"
-        - MATH3511 Scientific Computing - <em><strong>High Distinction</strong></em>
-    - title: Research Intern
-      institution: Tencent Technology, Beijing, China
-      year: 2025.09 - 2025.12
-      description:
-        - <em><strong>Research on enhancing the image captioning capabilities of MLLMs through reinforcement learning strategies.</strong></em>
-        - Developed a compact MLLM using supervised fine-tuning and reinforcement learning to generate highly precise, context-aware, and structured image captions, advancing real-world visual understanding.
-        - Proposed a co-evolutionary adversarial framework for MLLM image captioning that jointly optimizes captioning and question-generation models in a self-reinforcing loop, improving descriptive fidelity and completeness.
-    - title: Research Intern
-      institution: Xiaomi Technology, Beijing, China
-      year: 2026.01 - 2026.05
-      description:
-        - <em><strong>Research on enhancing reasoning capabilities of video foundation models through post-training strategies.</strong></em>
-        - Proposed a tool-augmented MLLM reasoning framework that enables introspective reasoning across both visual and textual modalities, significantly improving long-form video understanding.
-        - Developed Video-OPD, an efficient post-training framework for temporal video grounding that converts sparse rewards into dense step-wise signals, accelerating convergence while outperforming existing GRPO methods.
+    - title: Johns Hopkins University
+      logo: jhu.png
+      rest: Visiting Student, Baltimore
+      date: 07/2026 – Present
+      sub: <a href="https://ccvl.jhu.edu/">CCVL Group</a> &nbsp;|&nbsp; Advisors&#58; Prof. <a href="https://www.cs.jhu.edu/~ayuille/">Alan Yuille</a> and <a href="http://www.jienengchen.com/">Jieneng Chen</a>
+      items:
+        - "Building an action-based evaluation of spatial intelligence: after watching a full exploration video, the model must act on its grasp of the layout in Habitat, judged by task success rather than QA accuracy."
+    - title: Xiaomi
+      logo: xiaomi.png
+      rest: Research Intern, Beijing
+      date: 01/2026 – 06/2026
+      sub: MiLM Plus &nbsp;|&nbsp; Mentor&#58; Pei Fu
+      items:
+        - "Brought on-policy distillation from LLM post-training to temporal video grounding, replacing sparse GRPO rewards with dense token-level supervision from a teacher model and focusing training where student and teacher disagree."
+        - "Led a project on scene-level spatial reasoning in which the model decides what its cognitive map should contain and when to re-check it, trained with a reward that tests whether the map alone suffices to answer."
+    - title: Tencent
+      logo: tencent.png
+      rest: Research Intern, Beijing
+      date: 09/2025 – 01/2026
+      sub: Platform and Content Group (PCG) &nbsp;|&nbsp; Mentor&#58; Dian Li
+      items:
+        - "Reframed open-ended image captioning as answerability for reinforcement learning, co-training a questioner that probes what a caption misses and rewarding captions that let an LLM answer questions about the unseen image."
+        - "Designed a decoupled reward for MLLMs that re-watch video segments while reflecting, crediting a chosen segment only if it alone suffices to answer, so that the model learns to look at the right evidence."
 
 - title: Honors and Awards
-  type: time_table
+  type: entries
   contents:
-    - year: 2019
-      items:
-        - National Scholarship (Top 1%), awarded at China University of Mining and Technology
-        - First Prize, National Undergraduate Mathematics Competition
-    - year: 2020
-      items:
-        - National Scholarship (Top 1%), awarded at China University of Mining and Technology
-    - year: 2021
-      items:
-        - <a href="https://www.kaggle.com/certification/competitions/navidendi/cassava-leaf-disease-classification">Silver Medalist (Top 4.9%)</a> — <em>Cassava Leaf Disease Classification</em>, Kaggle Competition
-        - <a href="https://www.kaggle.com/certification/competitions/navidendi/jane-street-market-prediction">Silver Medalist (Top 3.6%)</a> - <em>Jane Street Market Prediction</em>, Kaggle Competition
-    - year: 2022
-      items:
-        - Excellent Graduate, China University of Mining and Technology
+    - title: National Scholarship
+      rest: China University of Mining and Technology (1st of 160)
+      date: 10/2019
+    - title: National Scholarship
+      rest: China University of Mining and Technology (1st of 185)
+      date: 10/2020
+    - title: Kaggle Silver Medal
+      rest: <a href="https://www.kaggle.com/certification/competitions/navidendi/cassava-leaf-disease-classification">Cassava Leaf Disease Classification</a> (192nd of 3,900 teams)
+      date: 02/2021
+    - title: Kaggle Silver Medal
+      rest: <a href="https://www.kaggle.com/certification/competitions/navidendi/jane-street-market-prediction">Jane Street Market Prediction</a> (155th of 4,245 teams)
+      date: 08/2021
 
 - title: Professional Services
-  type: list
-  contents:    
-    - <strong>Conference Reviewer:</strong> ICLR (2025), CVPR (2025), ICLR (2026) 
+  type: entries
+  contents:
+    - title: Conference Reviewer
+      rest: ICLR 2025, CVPR 2025, ICLR 2026
