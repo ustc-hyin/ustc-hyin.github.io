@@ -387,7 +387,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-excited-to-share-that-i-ve-completed-my-internship-at-tencent-and-have-begun-a-research-internship-at-xiaomi-my-project-focuses-on-improving-the-spatial-reasoning-of-mllms-through-post-training-with-an-emphasis-on-reasoning-frameworks-and-training-strategies",
+            },},{id: "news-excited-to-share-that-i-ve-completed-my-internship-at-tencent-and-have-begun-a-research-internship-at-xiaomi-my-project-focuses-on-improving-the-spatial-reasoning-of-mllms-through-post-training",
           title: 'Excited to share that I’ve completed my internship at Tencent and have begun...',
           description: "",
           section: "News",},{id: "news-our-paper-revisor-beyond-textual-reflection-towards-multimodal-introspective-reasoning-in-long-form-video-understanding-co-first-author-has-been-accepted-to-cvpr-2026-this-work-proposes-a-tool-augmented-reasoning-framework-that-lets-mllms-revisit-key-video-segments-during-reflection-reasoning-introspectively-across-both-visual-and-textual-modalities-to-improve-long-form-video-understanding",
