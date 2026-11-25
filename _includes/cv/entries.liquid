@@ -1,5 +1,7 @@
 {% assign has_logos = false %}
-{% for content in entry.contents %}{% if content.logo %}{% assign has_logos = true %}{% endif %}{% endfor %}
+{% for content in entry.contents -%}
+  {%- if content.logo %}{% assign has_logos = true %}{% endif -%}
+{%- endfor %}
 <div class="cv-entries{% if has_logos %} cv-timeline{% endif %}">
   {% for content in entry.contents %}
     <div class="cv-entry{% unless content.sub or content.items or content.desc %} cv-compact{% endunless %}">
@@ -11,15 +13,24 @@
       <div class="cv-body">
         <div class="cv-head">
           <div class="cv-what">
-            <b>{{ content.title }}</b>{% if content.rest %}, {{ content.rest }}{% endif %}
+            <b>{{ content.title }}</b>
+            {%- if content.rest %}, {{ content.rest }}{% endif %}
           </div>
-          {% if content.date %}<div class="cv-date">{{ content.date }}</div>{% endif %}
+          {% if content.date %}
+            <div class="cv-date">{{ content.date }}</div>
+          {% endif %}
         </div>
-        {% if content.sub %}<div class="cv-sub">{{ content.sub }}</div>{% endif %}
-        {% if content.desc %}<div class="cv-desc">{{ content.desc }}</div>{% endif %}
+        {% if content.sub %}
+          <div class="cv-sub">{{ content.sub }}</div>
+        {% endif %}
+        {% if content.desc %}
+          <div class="cv-desc">{{ content.desc }}</div>
+        {% endif %}
         {% if content.items %}
           <ul class="cv-items">
-            {% for item in content.items %}<li>{{ item }}</li>{% endfor %}
+            {% for item in content.items %}
+              <li>{{ item }}</li>
+            {% endfor %}
           </ul>
         {% endif %}
       </div>

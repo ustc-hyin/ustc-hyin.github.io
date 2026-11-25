@@ -11,7 +11,7 @@
     <ul class="news-list">
       {% for item in news limit: news_limit -%}
         <li>
-          <span class="news-date">{{ item.date | date: "%m/%Y" }}.</span>
+          <span class="news-date">{{ item.date | date: '%m/%Y' }}.</span>
           {% if item.inline -%}
             {{ item.content | remove: '<p>' | remove: '</p>' | strip | emojify }}
           {%- else -%}

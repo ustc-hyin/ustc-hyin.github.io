@@ -16,7 +16,9 @@ layout: default
       <div class="cv cv-plain">
         {% if page.cv_pdf %}
           <div class="cv-meta">
-            <span>{% if page.cv_updated %}Last updated {{ page.cv_updated }}{% endif %}</span>
+            <span>
+              {%- if page.cv_updated %}Last updated {{ page.cv_updated }}{% endif -%}
+            </span>
             <a
               class="cv-pdf"
               {% if page.cv_pdf contains '://' %}
@@ -26,7 +28,8 @@ layout: default
               {% endif %}
               target="_blank"
               rel="noopener noreferrer"
-            ><i class="fa-solid fa-file-pdf"></i> Download PDF</a>
+              ><i class="fa-solid fa-file-pdf"></i> Download PDF</a
+            >
           </div>
         {% endif %}
         {% for entry in site.data.cv %}

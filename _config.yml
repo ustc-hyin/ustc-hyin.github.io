@@ -124,13 +124,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+external_sources: [] # al-folio demo feeds removed
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -175,34 +169,16 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
-  - bin/
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
-  - Dockerfile
-  - docker-compose.yml
-  - docker-compose-slim.yml
-  - FAQ.md
   - Gemfile
   - Gemfile.lock
-  - INSTALL.md
   - LICENSE
-  - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
-  - readme_preview/
+  - requirements.txt
   - vendor
-  - _pages/profiles.md
-  - _pages/projects.md
-  - _pages/teaching.md
-  - _pages/dropdown.md
-  - _pages/books.md
-  - _pages/blog.md
-  - _pages/about_einstein.md
   - assets/json/resume.json
-  - _news/announcement_2.md
 keep_files:
   - CNAME
   - .nojekyll
