@@ -49,8 +49,7 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: false
-news_limit: 5 # max news items shown on the homepage (the /news/ page shows all)
+footer_fixed: true
 search_enabled: false
 socials_in_search: true
 posts_in_search: true

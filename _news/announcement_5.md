@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-<a href="https://arxiv.org/abs/2504.10020">The Mirage of Performance Gains</a>, showing why contrastive decoding fails to mitigate hallucinations, accepted to <a href="https://neurips.cc/Conferences/2025">NeurIPS 2025</a>.
+Our paper _The Mirage of Performance Gains: Why Contrastive Decoding Fails to Mitigate Object Hallucinations in MLLMs?_ has been accepted to <a href="https://neurips.cc/">NeurIPS 2025</a>!<br>
+This work reveals that contrastive decoding fails to genuinely mitigate hallucinations. Any apparent improvements are merely artifacts of confounding factors, not true effectiveness.

@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-<a href="https://arxiv.org/abs/2511.13026">REVISOR</a> (co-first author), multimodal introspective reasoning for long-form video, accepted to <a href="https://cvpr.thecvf.com/Conferences/2026">CVPR 2026</a>.
+Our paper _REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding_ has been accepted to <a href="https://neurips.cc/">CVPR 2026</a>!<br>
+This work proposes a tool-augmented MLLM reasoning framework that enables introspective reasoning across both visual and textual modalities, significantly improving long-form video understanding.
