@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post about-page">
   <article>
     {% if page.profile -%}
       <div class="row profile-header">
@@ -77,8 +77,8 @@ layout: default
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
-      <p class="pub-note">* denotes equal contribution</p>
       {% include selected_papers.liquid %}
+      <p class="pub-note">* denotes equal contribution.</p>
     {% endif -%}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed -%}
