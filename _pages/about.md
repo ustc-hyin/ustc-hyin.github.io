@@ -3,23 +3,33 @@ layout: about
 title: about
 permalink: /
 subtitle: |+
-  Actively looking for research internships in the United States <br><br>
-  Master’s Student, <br>
-  Artificial Intelligence & Data Science, <br>
-  <a href="https://www.ustc.edu.cn">University of Science and Technology of China (USTC)</a>.
+  <span class="phd-line">Applying for Ph.D. programs starting Fall 2027</span>
+  Master's Student, School of Artificial Intelligence and Data Science, <a href="https://www.ustc.edu.cn">USTC</a><br>
+  Visiting Student, <a href="https://ccvl.jhu.edu/">CCVL</a>, <a href="https://www.jhu.edu/">Johns Hopkins University</a>
 
 profile:
   image: profile.jpg
   image_cicular: false # crops the image to make it circular
   address: false
+  more_info: >
+    At USTC, I am advised by <a href="http://staff.ustc.edu.cn/~zlwang/">Zilei Wang</a> in the
+    <a href="https://vim.ustc.edu.cn/main.htm">Vision and Multimedia Research Group</a>.
+    I am currently visiting <a href="https://ccvl.jhu.edu/">CCVL</a> at Johns Hopkins University, working with
+    <a href="https://www.cs.jhu.edu/~ayuille/">Alan Yuille</a> and <a href="http://www.jienengchen.com/">Jieneng Chen</a>.
+    Previously, I was a research intern at <a href="https://www.mi.com/global/">Xiaomi</a> and
+    <a href="https://www.tencent.com/en-us/">Tencent</a>.
+    I received my B.Sc. in Applied Mathematics from <a href="https://www.cumt.edu.cn/">China University of Mining and Technology</a>,
+    where I worked with <a href="https://math.cumt.edu.cn/6d/ce/c9104a355790/pagem.htm">Hu Shao</a>.
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-**Research:** My research primarily focuses on multimodal large language models (MLLMs), with an emphasis on enhancing their perception and reasoning capabilities through reinforcement learning–based post-training strategies. Previously, I investigated methods to accelerate MLLM inference by pruning redundant tokens based on internal information flow, as well as techniques to reduce object hallucination and improve visual grounding through test-time interventions. Broadly, my work aims to develop generalizable methodologies for building more intelligent, efficient, and reliable multimodal AI systems.
+## research
 
-**Background:** I am currently pursuing my Master’s degree in Artificial Intelligence & Data Science at the [University of Science and Technology of China](https://www.ustc.edu.cn), advised by [Zilei Wang](http://staff.ustc.edu.cn/~zlwang/) in the [Vision and Multimedia Research Group](https://vim.ustc.edu.cn/main.htm). I received my Bachelor’s degree in Mathematics and Applied Mathematics from [China University of Mining and Technology](https://www.cumt.edu.cn/), where I worked with [Hu Shao](https://math.cumt.edu.cn/6d/ce/c9104a355790/pagem.htm).
+I am interested in how multimodal models come to genuinely understand the visual world, and how we can tell if they do.
 
-<!-- **Previously:** I received my Ph.D. in Computer Science from [Stanford University](https://www.stanford.edu), advised by [Stefano Ermon](https://cs.stanford.edu/~ermon). I was a research intern at [Google Brain](https://research.google/teams/brain/), Uber ATG, and [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/). I obtained my Bachelor's degree in Mathematics and Physics from [Tsinghua University](https://www.tsinghua.edu.cn/), where I worked with [Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun/index.shtml), [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/), and [Richard Zemel](http://www.cs.toronto.edu/~zemel/inquiry/home.php). -->
+- **Spatial Intelligence.** Answering questions about space is not the same as understanding it. I aim to build training and evaluation tasks that ground spatial intelligence in acting in the physical world, rather than in question-answering accuracy alone.
+- **Video Understanding.** Video reasoning is not passive viewing but active inquiry: deciding where to look and when to look again. I believe models should learn this through tool use and reinforcement learning, not by imitating fixed reasoning traces.
+- **Hallucination & Interpretability.** Do MLLMs truly use what they see? Hallucination often stems from how visual information is processed inside the model, so I believe understanding these internal mechanisms should come before fixing them.

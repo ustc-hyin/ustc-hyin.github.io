@@ -1434,3 +1434,71 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// ---------------------------------------------------------------------------
+// Homepage header: photo height follows the text column (bottoms aligned)
+// ---------------------------------------------------------------------------
+.profile-header {
+  margin-bottom: 1.5rem;
+
+  .phd-line {
+    display: block;
+    margin-bottom: 0.6rem;
+  }
+
+  .more-info {
+    text-align: justify;
+    text-wrap: pretty;
+    margin-bottom: 1rem;
+  }
+
+  .contact-icons {
+    line-height: 1;
+  }
+
+  @media (min-width: 576px) {
+    align-items: stretch;
+
+    .profile-photo {
+      position: relative;
+
+      figure,
+      picture {
+        margin: 0;
+      }
+
+      img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 15px;
+        width: calc(100% - 30px);
+        height: 100%;
+        object-fit: cover;
+        object-position: center 15%;
+      }
+    }
+
+    .profile-info {
+      display: flex;
+      flex-direction: column;
+
+      .social {
+        margin-top: auto;
+      }
+    }
+  }
+}
+
+// Lighter Chinese name so it matches the thin Latin title font
+.cjk-name {
+  font-family: "PingFang SC", "Microsoft YaHei UI Light", "Microsoft YaHei Light", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  font-weight: 300;
+}
+
+// Research bullets on the homepage
+.post article .clearfix ul li {
+  margin-bottom: 0.5rem;
+  text-align: justify;
+  text-wrap: pretty;
+}
