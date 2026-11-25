@@ -1614,3 +1614,36 @@ ol.bibliography > li {
   font-size: 0.9rem;
   color: var(--global-text-color-light);
 }
+
+// ---------------------------------------------------------------------------
+// News: compact bulleted list with inline dates (like most academic homepages)
+// ---------------------------------------------------------------------------
+.news-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+
+  li {
+    position: relative;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    text-wrap: pretty;
+
+    // en-dash bullet, as on jienengchen.com
+    &::before {
+      content: "\2013";
+      position: absolute;
+      left: 0;
+      color: var(--global-text-color-light);
+    }
+  }
+
+  // same-width digits so every date has the same length and the text after it lines up
+  .news-date {
+    font-variant-numeric: tabular-nums;
+  }
+
+  b {
+    font-weight: 500;
+  }
+}

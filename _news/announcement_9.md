@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Excited to start a research visit at <a href="https://ccvl.jhu.edu/">CCVL</a>, Johns Hopkins University, working with <a href="https://www.cs.jhu.edu/~ayuille/">Alan Yuille</a> and <a href="http://www.jienengchen.com/">Jieneng Chen</a>! My project evaluates spatial intelligence by asking MLLMs to act in embodied environments rather than answer questions.
+Started a research visit at <a href="https://ccvl.jhu.edu/">CCVL</a>, Johns Hopkins University, working with <a href="https://www.cs.jhu.edu/~ayuille/">Alan Yuille</a> and <a href="http://www.jienengchen.com/">Jieneng Chen</a>. My project evaluates the spatial intelligence of MLLMs through acting in embodied environments rather than answering questions.

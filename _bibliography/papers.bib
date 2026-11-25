@@ -12,8 +12,9 @@
   tldr={Brings on-policy distillation to video MLLMs, replacing sparse GRPO rewards with dense token-level teacher supervision for temporal video grounding.},
   abstract={Reinforcement learning has emerged as a principled post-training paradigm for Temporal Video Grounding (TVG) due to its on-policy optimization, yet existing GRPO-based methods remain fundamentally constrained by sparse reward signals and substantial computational overhead. We propose Video-OPD, an efficient post-training framework for TVG inspired by recent advances in on-policy distillation. Video-OPD optimizes trajectories sampled directly from the current policy, thereby preserving alignment between training and inference distributions, while a frontier teacher supplies dense, token-level supervision via a reverse KL divergence objective. This formulation preserves the on-policy property critical for mitigating distributional shift, while converting sparse, episode-level feedback into fine-grained, step-wise learning signals. Building on Video-OPD, we introduce Teacher-Validated Disagreement Focusing (TVDF), a lightweight training curriculum that iteratively prioritizes trajectories that are both teacher-reliable and maximally informative for the student, thereby improving training efficiency. Empirical results demonstrate that Video-OPD consistently outperforms GRPO while achieving substantially faster convergence and lower computational cost, establishing on-policy distillation as an effective alternative to conventional reinforcement learning for TVG.},
   pdf={https://arxiv.org/abs/2602.02994}, 
+  code={https://github.com/SeerRay-Lab/Video-OPD},
   bibtex_show={true},
-  selected={false},
+  selected={true},
   preview={video-opd.png},
 }
 
@@ -29,6 +30,7 @@
   tldr={Lets MLLMs re-inspect key video segments while reflecting, with a reward that ties their reasoning to the right visual evidence.},
   abstract={Self-reflection mechanisms that rely on purely text-based rethinking processes perform well in most multimodal tasks. However, when directly applied to long-form video understanding scenarios, they exhibit clear limitations. The fundamental reasons for this lie in two points: (1)long-form video understanding involves richer and more dynamic visual input, meaning rethinking only the text information is insufficient and necessitates a further rethinking process specifically targeting visual information; (2) purely text-based reflection mechanisms lack cross-modal interaction capabilities, preventing them from fully integrating visual information during reflection. Motivated by these insights, we propose REVISOR (REflective VIsual Segment Oriented Reasoning), a novel framework for tool-augmented multimodal reflection. REVISOR enables MLLMs to collaboratively construct introspective reflection processes across textual and visual modalities, significantly enhancing their reasoning capability for long-form video understanding. To ensure that REVISOR can learn to accurately review video segments highly relevant to the question during reinforcement learning, we designed the Dual Attribution Decoupled Reward (DADR) mechanism. Integrated into the GRPO training strategy, this mechanism enforces causal alignment between the model's reasoning and the selected video evidence. Notably, the REVISOR framework significantly enhances long-form video understanding capability of MLLMs without requiring supplementary supervised fine-tuning or external models, achieving impressive results on four benchmarks including VideoMME, LongVideoBench, MLVU, and LVBench.},
   pdf={https://arxiv.org/abs/2511.13026}, 
+  code={https://github.com/SeerRay-Lab/REVISOR},
   bibtex_show={true},
   selected={true},
   preview={revisor.png},
@@ -64,7 +66,7 @@
   pdf={https://arxiv.org/abs/2503.13107}, 
   code={https://github.com/ustc-hyin/ClearSight},
   bibtex_show={true},
-  selected={true},
+  selected={false},
   preview={clearsight.png},
 }
 
@@ -81,7 +83,7 @@
   pdf={https://arxiv.org/abs/2503.13108}, 
   code={https://github.com/ustc-hyin/HiMAP},
   bibtex_show={true},
-  selected={true},
+  selected={false},
   preview={himap.png},
 }
 
