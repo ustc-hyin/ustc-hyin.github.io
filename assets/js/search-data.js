@@ -387,20 +387,23 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-two-first-author-papers-himap-efficient-inference-and-clearsight-hallucination-mitigation-accepted-to-cvpr-2025",
-          title: 'Two first-author papers, HiMAP (efficient inference) and ClearSight (hallucination mitigation), accepted to CVPR...',
+            },},{id: "news-our-paper-clearsight-visual-signal-enhancement-for-object-hallucination-mitigation-in-multimodal-large-language-models-has-been-accepted-to-cvpr-2025-in-this-work-we-present-a-method-to-mitigate-object-hallucination-in-mllms-by-strengthening-attention-to-visual-input",
+          title: 'Our paper ClearSight: Visual Signal Enhancement for Object Hallucination Mitigation in Multimodal Large...',
           description: "",
-          section: "News",},{id: "news-started-a-research-internship-at-tencent-pcg-working-on-rl-post-training-for-mllms",
-          title: 'Started a research internship at Tencent PCG, working on RL post-training for MLLMs....',
+          section: "News",},{id: "news-our-paper-lifting-the-veil-on-visual-information-flow-in-mllms-unlocking-pathways-to-faster-inference-has-been-accepted-to-cvpr-2025-this-work-investigates-the-internal-visual-information-flow-patterns-in-mllms-and-proposes-a-novel-training-free-inference-acceleration-method-based-on-our-findings",
+          title: 'Our paper Lifting the Veil on Visual Information Flow in MLLMs: Unlocking Pathways...',
           description: "",
-          section: "News",},{id: "news-the-mirage-of-performance-gains-showing-why-contrastive-decoding-fails-to-mitigate-hallucinations-accepted-to-neurips-2025",
-          title: 'The Mirage of Performance Gains, showing why contrastive decoding fails to mitigate hallucinations,...',
+          section: "News",},{id: "news-excited-to-share-that-i-ve-begun-a-research-internship-at-tencent-my-project-will-involve-exploring-how-to-boost-the-common-sense-reasoning-abilities-of-mllms-this-will-primarily-be-achieved-through-post-training-approaches-focusing-on-efficient-data-construction-and-innovative-training-strategy-design",
+          title: 'Excited to share that I’ve begun a research internship at Tencent! My project...',
           description: "",
-          section: "News",},{id: "news-started-a-research-internship-at-xiaomi-working-on-spatial-reasoning-of-mllms",
-          title: 'Started a research internship at Xiaomi, working on spatial reasoning of MLLMs.',
+          section: "News",},{id: "news-our-paper-the-mirage-of-performance-gains-why-contrastive-decoding-fails-to-mitigate-object-hallucinations-in-mllms-has-been-accepted-to-neurips-2025-this-work-reveals-that-contrastive-decoding-fails-to-genuinely-mitigate-hallucinations-any-apparent-improvements-are-merely-artifacts-of-confounding-factors-not-true-effectiveness",
+          title: 'Our paper The Mirage of Performance Gains: Why Contrastive Decoding Fails to Mitigate...',
           description: "",
-          section: "News",},{id: "news-revisor-co-first-author-multimodal-introspective-reasoning-for-long-form-video-accepted-to-cvpr-2026",
-          title: 'REVISOR (co-first author), multimodal introspective reasoning for long-form video, accepted to CVPR 2026....',
+          section: "News",},{id: "news-excited-to-share-that-i-ve-completed-my-internship-at-tencent-and-have-begun-a-research-internship-at-xiaomi-my-project-focuses-on-enhancing-the-spatial-perception-capabilities-of-mllms-primarily-through-post-training-methods-emphasizing-effective-reasoning-frameworks-and-innovative-training-strategies",
+          title: 'Excited to share that I’ve completed my internship at Tencent and have begun...',
+          description: "",
+          section: "News",},{id: "news-our-paper-revisor-beyond-textual-reflection-towards-multimodal-introspective-reasoning-in-long-form-video-understanding-has-been-accepted-to-cvpr-2026-this-work-proposes-a-tool-augmented-mllm-reasoning-framework-that-enables-introspective-reasoning-across-both-visual-and-textual-modalities-significantly-improving-long-form-video-understanding",
+          title: 'Our paper REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -473,7 +476,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=K9_zbI8AAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=K9_zbI8AAAAJ&hl", "_blank");
         },
       },{
         id: 'social-x',
